@@ -1,15 +1,22 @@
-import React from "react";
+import { Route, Switch } from "react-router";
+
 import "./App.css";
-import Header from "./components/Header";
-import MoviesList from "./components/MoviesList";
+import MainNavigation from "./components/layout/MainNavigation";
+import FavoritesPage from "./pages/Favorites";
+import Top100MoviesPage from "./pages/Top100Movies";
 
 function App() {
-  const movies: any = [];
-
   return (
     <div className="app">
-      <Header />
-      <MoviesList movies={movies} />
+      <MainNavigation />
+      <Switch>
+        <Route path="/" exact>
+          <Top100MoviesPage />
+        </Route>
+        <Route path="/favorites" exact>
+          <FavoritesPage />
+        </Route>
+      </Switch>
     </div>
   );
 }
