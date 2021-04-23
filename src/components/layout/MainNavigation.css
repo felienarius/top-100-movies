@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
 }
+
 .nav {
   position: fixed;
   left: 0;
@@ -10,13 +11,6 @@ a {
   background-color: #232323;
 }
 
-.wrapper {
-  display: flex;
-  max-width: 1116px;
-  margin: auto;
-  height: 100%;
-  justify-content: space-between;
-}
 .nav-link {
   padding: 0 20px 0 10px;
   color: #fff;
@@ -36,6 +30,7 @@ a {
   border-bottom: 1px solid #cccccc;
   background-color: #303030;
 }
+
 .nav-link.active {
   border-bottom: 1px solid #cc3434;
 }
