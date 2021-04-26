@@ -85,10 +85,10 @@ function App() {
       <MainNavigation />
       <div className="wrapper">
         <Switch>
-          <Route path="/" exact>
+          <Route path="/top-100-movies/" exact>
             <Top100MoviesPage movies={loadedMovies} setFavorite={setFavorite}/>
           </Route>
-          <Route path="/favorites" exact>
+          <Route path="/top-100-movies/favorites" exact>
             <FavoritesPage movies={loadedMovies.filter(movie => movie.isFavorite)} setFavorite={setFavorite}/>
           </Route>
         </Switch>
