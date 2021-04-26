@@ -7,7 +7,7 @@ function Top100MoviesPage(props: {
 }) {
   return (
     <MoviesList
-      title="Top 100 Movies"
+      title="Top 100 movies"
       movies={props.movies}
       setFavorite={props.setFavorite}
     />

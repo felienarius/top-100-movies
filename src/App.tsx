@@ -89,7 +89,7 @@ function App() {
             <Top100MoviesPage movies={loadedMovies} setFavorite={setFavorite}/>
           </Route>
           <Route path="/favorites" exact>
-            <FavoritesPage />
+            <FavoritesPage movies={loadedMovies.filter(movie => movie.isFavorite)} setFavorite={setFavorite}/>
           </Route>
         </Switch>
       </div>
