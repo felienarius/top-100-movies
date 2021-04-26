@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/top-100-movies/static/css/main.0d7890f1.chunk.css",
-    "main.js": "/top-100-movies/static/js/main.e967f333.chunk.js",
-    "main.js.map": "/top-100-movies/static/js/main.e967f333.chunk.js.map",
+    "main.css": "/top-100-movies/static/css/main.763cb8c0.chunk.css",
+    "main.js": "/top-100-movies/static/js/main.0dd647f4.chunk.js",
+    "main.js.map": "/top-100-movies/static/js/main.0dd647f4.chunk.js.map",
     "runtime-main.js": "/top-100-movies/static/js/runtime-main.8e02cc7f.js",
     "runtime-main.js.map": "/top-100-movies/static/js/runtime-main.8e02cc7f.js.map",
     "static/js/2.650fd80c.chunk.js": "/top-100-movies/static/js/2.650fd80c.chunk.js",
     "static/js/2.650fd80c.chunk.js.map": "/top-100-movies/static/js/2.650fd80c.chunk.js.map",
     "index.html": "/top-100-movies/index.html",
-    "static/css/main.0d7890f1.chunk.css.map": "/top-100-movies/static/css/main.0d7890f1.chunk.css.map",
+    "static/css/main.763cb8c0.chunk.css.map": "/top-100-movies/static/css/main.763cb8c0.chunk.css.map",
     "static/js/2.650fd80c.chunk.js.LICENSE.txt": "/top-100-movies/static/js/2.650fd80c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e02cc7f.js",
     "static/js/2.650fd80c.chunk.js",
-    "static/css/main.0d7890f1.chunk.css",
-    "static/js/main.e967f333.chunk.js"
+    "static/css/main.763cb8c0.chunk.css",
+    "static/js/main.0dd647f4.chunk.js"
   ]
 }
