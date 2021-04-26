@@ -67,6 +67,26 @@
   top: 20px;
 }
 
+.favorites .heart {
+  transition: stroke 0.5s, fill 0.5s;
+  stroke-linejoin: round;
+  stroke-width: 2.1;
+  stroke: #001514;
+  fill: transparent;
+}
+
+.favorites:hover .heart {
+  stroke: rgba(209, 122, 34, 65%);
+}
+
+.menuItem.favorite .favorites .heart {
+  stroke: rgb(70, 55, 25);
+  fill: rgb(209, 122, 34);
+}
+
+.menuItem.favorite .favorites:hover .heart {
+  fill: rgba(209, 122, 34, 50%);
+}
 @keyframes expand {
   0% {
     max-height: 0;
